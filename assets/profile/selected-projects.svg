@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Selected Projects</title>
+  <desc id="desc">Two compact project cards for CANOPY Rainforest and To Bloom List.</desc>
+  <rect width="1200" height="300" rx="28" fill="#FBFAF2"/>
+  <text x="60" y="56" fill="#244539" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="3">SELECTED PROJECTS / 04</text>
+
+  <g transform="translate(60,90)">
+    <rect width="515" height="160" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <rect x="0" y="0" width="9" height="160" rx="4.5" fill="#779999"/>
+    <text x="34" y="44" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">CANOPY Rainforest</text>
+    <text x="34" y="74" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="14">Plant discovery, care and commerce prototype.</text>
+    <text x="34" y="116" fill="#426546" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">JAVASCRIPT · EXPRESS · HTML · CSS</text>
+    <text x="34" y="140" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="12">Single-source plant data · design tokens · access boundaries</text>
+  </g>
+
+  <g transform="translate(625,90)">
+    <rect width="515" height="160" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <rect x="0" y="0" width="9" height="160" rx="4.5" fill="#426546"/>
+    <text x="34" y="44" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">To Bloom List</text>
+    <text x="34" y="74" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="14">Task progress translated into a growing garden.</text>
+    <text x="34" y="116" fill="#426546" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">JAVASCRIPT · HTML · CSS · LOCALSTORAGE</text>
+    <text x="34" y="140" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="12">Task CRUD · daily progress · calendar · collection prototype</text>
+  </g>
+</svg>

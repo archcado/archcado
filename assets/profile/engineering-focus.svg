@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering Focus</title>
+  <desc id="desc">Four editorial cards for business workflow, data consistency, authorization, and verification.</desc>
+  <rect width="1200" height="470" rx="28" fill="#FBFAF2"/>
+  <text x="60" y="62" fill="#244539" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="3">ENGINEERING FOCUS / 02</text>
+  <text x="60" y="106" fill="#24372F" font-family="Arial, Helvetica, sans-serif"
+        font-size="30" font-weight="700">What I pay attention to when building systems.</text>
+
+  <!-- card 1 -->
+  <g transform="translate(60,145)">
+    <rect width="515" height="128" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <circle cx="48" cy="48" r="22" fill="#E7ECE6"/>
+    <path d="M36 48 H60 M52 40 L60 48 L52 56" fill="none" stroke="#426546" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="88" y="43" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">BUSINESS WORKFLOW</text>
+    <text x="88" y="72" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Explicit states, transitions and business rules.</text>
+    <text x="88" y="96" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Avoid features that only work in one isolated screen.</text>
+  </g>
+
+  <!-- card 2 -->
+  <g transform="translate(625,145)">
+    <rect width="515" height="128" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <circle cx="48" cy="48" r="22" fill="#E7ECE6"/>
+    <ellipse cx="48" cy="40" rx="14" ry="6" fill="none" stroke="#426546" stroke-width="2.2"/>
+    <path d="M34 40 V58 C34 63 40 67 48 67 C56 67 62 63 62 58 V40 M34 49 C34 54 40 58 48 58 C56 58 62 54 62 49" fill="none" stroke="#426546" stroke-width="2.2"/>
+    <text x="88" y="43" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">DATA CONSISTENCY</text>
+    <text x="88" y="72" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Clarify sources of truth and shared state semantics.</text>
+    <text x="88" y="96" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Keep UI, API and database behavior aligned.</text>
+  </g>
+
+  <!-- card 3 -->
+  <g transform="translate(60,302)">
+    <rect width="515" height="128" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <circle cx="48" cy="48" r="22" fill="#E7ECE6"/>
+    <path d="M48 32 L62 38 V49 C62 59 56 67 48 71 C40 67 34 59 34 49 V38 Z" fill="none" stroke="#426546" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M42 49 L47 54 L55 44" fill="none" stroke="#426546" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="88" y="43" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">AUTHORIZATION</text>
+    <text x="88" y="72" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">RBAC plus data-scope boundaries for each role.</text>
+    <text x="88" y="96" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Permission checks are part of system behavior.</text>
+  </g>
+
+  <!-- card 4 -->
+  <g transform="translate(625,302)">
+    <rect width="515" height="128" rx="22" fill="#FFFFFF" stroke="#CBD7CC"/>
+    <circle cx="48" cy="48" r="22" fill="#E7ECE6"/>
+    <circle cx="48" cy="48" r="11" fill="none" stroke="#426546" stroke-width="2.2"/>
+    <path d="M56 56 L65 65 M43 48 L47 52 L54 43" fill="none" stroke="#426546" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="88" y="43" fill="#244539" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">VERIFICATION</text>
+    <text x="88" y="72" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Verify through API, database, tests and runtime results.</text>
+    <text x="88" y="96" fill="#6D7D73" font-family="Arial, Helvetica, sans-serif" font-size="15">Prefer observable behavior over implementation trivia.</text>
+  </g>
+</svg>

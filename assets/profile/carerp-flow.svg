@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="315" viewBox="0 0 1200 315" role="img" aria-labelledby="title desc">
+  <title id="title">CarERP System Flow</title>
+  <desc id="desc">A workflow from customer assignment through sales activity, opportunity, order, and accounting with RBAC across the flow.</desc>
+  <rect width="1200" height="315" rx="28" fill="#244539"/>
+  <text x="60" y="58" fill="#F4F0DD" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="3">CARERP SYSTEM FLOW / 03</text>
+  <text x="60" y="98" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif"
+        font-size="27" font-weight="700">From customer assignment to transaction data.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    <!-- connectors -->
+    <g fill="none" stroke="#779999" stroke-width="3" stroke-linecap="round">
+      <path d="M219 185 H282"/>
+      <path d="M435 185 H498"/>
+      <path d="M651 185 H714"/>
+      <path d="M867 185 H930"/>
+    </g>
+    <g fill="#779999">
+      <path d="M282 185 l-10 -7 v14 z"/>
+      <path d="M498 185 l-10 -7 v14 z"/>
+      <path d="M714 185 l-10 -7 v14 z"/>
+      <path d="M930 185 l-10 -7 v14 z"/>
+    </g>
+
+    <!-- nodes -->
+    <g>
+      <rect x="66" y="151" width="153" height="68" rx="18" fill="#FFFFFF" opacity=".96"/>
+      <text x="142" y="180" text-anchor="middle" fill="#244539">CUSTOMER</text>
+      <text x="142" y="202" text-anchor="middle" fill="#6D7D73" font-size="12" font-weight="500">assignment</text>
+
+      <rect x="282" y="151" width="153" height="68" rx="18" fill="#FFFFFF" opacity=".96"/>
+      <text x="358" y="180" text-anchor="middle" fill="#244539">SALES</text>
+      <text x="358" y="202" text-anchor="middle" fill="#6D7D73" font-size="12" font-weight="500">activity</text>
+
+      <rect x="498" y="151" width="153" height="68" rx="18" fill="#FFFFFF" opacity=".96"/>
+      <text x="574" y="180" text-anchor="middle" fill="#244539">OPPORTUNITY</text>
+      <text x="574" y="202" text-anchor="middle" fill="#6D7D73" font-size="12" font-weight="500">stage transition</text>
+
+      <rect x="714" y="151" width="153" height="68" rx="18" fill="#FFFFFF" opacity=".96"/>
+      <text x="790" y="180" text-anchor="middle" fill="#244539">ORDER</text>
+      <text x="790" y="202" text-anchor="middle" fill="#6D7D73" font-size="12" font-weight="500">transaction</text>
+
+      <rect x="930" y="151" width="204" height="68" rx="18" fill="#FFFFFF" opacity=".96"/>
+      <text x="1032" y="180" text-anchor="middle" fill="#244539">ACCOUNTING</text>
+      <text x="1032" y="202" text-anchor="middle" fill="#6D7D73" font-size="12" font-weight="500">financial view</text>
+    </g>
+
+    <!-- RBAC rail -->
+    <path d="M142 249 H1032" fill="none" stroke="#F4F0DD" stroke-opacity=".38" stroke-width="2"/>
+    <circle cx="142" cy="249" r="4" fill="#F4F0DD"/>
+    <circle cx="358" cy="249" r="4" fill="#F4F0DD"/>
+    <circle cx="574" cy="249" r="4" fill="#F4F0DD"/>
+    <circle cx="790" cy="249" r="4" fill="#F4F0DD"/>
+    <circle cx="1032" cy="249" r="4" fill="#F4F0DD"/>
+    <rect x="480" y="238" width="212" height="24" rx="12" fill="#426546"/>
+    <text x="586" y="255" text-anchor="middle" fill="#F4F0DD" font-size="11" letter-spacing="1.5">RBAC + DATA SCOPE</text>
+  </g>
+</svg>
